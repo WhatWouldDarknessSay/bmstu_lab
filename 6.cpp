@@ -12,7 +12,6 @@ int main(){
     cout << "Введите коэффициент R";
     cin >> r;
     d = 4 * pow(b, 2) * pow(c, 2) + 4 * (pow(b, 2) + pow(a, 2)) * pow(r, 2) * pow(a, 2);
-    cout << d << endl;
     if (d > 0) {
         ans1y = (2 * b * c + sqrt(d)) / (2 * (pow(b, 2) + pow(a, 2)));
         ans2y = (2 * b * c - sqrt(d)) / (2 * (pow(b, 2) + pow(a, 2)));
