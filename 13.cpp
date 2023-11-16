@@ -2,8 +2,8 @@
 #include<cmath>
 using namespace std;
 
-const int n = 3;
-const int m = 3;
+const int n = 4;
+const int m = 4;
 
 template<typename T>
 void input_matrix(T matrix, int m, int n) {
