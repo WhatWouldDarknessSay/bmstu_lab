@@ -13,7 +13,7 @@ public:
     ~MyVector(){
         delete[] dataPointer;
     }
-
+                                    
     MyVector(const MyVector &rhs) {
         capacity = rhs.Capacity();
         dataPointer = new TypeOfElement[capacity];
@@ -52,9 +52,9 @@ public:
 
     MyVector operator+ (const MyVector &rhs) const {
         MyVector<TypeOfElement> result;
-        result.UpCapacity(Capacity() + rhs.Capacity()); // increase the capacity of the result vector
-        for(int i = 0; i < Capacity(); i++) result.PushBack(At(i)); // add the elements of the left-hand side vector first
-        for(int i = 0; i < rhs.Capacity(); i++) result.PushBack(rhs.At(i)); // then add the elements of the right-hand side vector
+        result.UpCapacity(Capacity() + rhs.Capacity()); 
+        for(int i = 0; i < Capacity(); i++) result.PushBack(At(i)); 
+        for(int i = 0; i < rhs.Capacity(); i++) result.PushBack(rhs.At(i)); 
         return result;
 };
 
@@ -63,7 +63,7 @@ private:
     int length, capacity;
     TypeOfElement *dataPointer;
 
-    void UpCapacity (TypeOfElement newCapacity){
+    void UpCapacity (int newCapacity){
         TypeOfElement* temp;
         capacity = newCapacity;
         temp = new TypeOfElement[newCapacity];
