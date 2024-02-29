@@ -4,21 +4,6 @@
 #include<stdio.h>
 using namespace std;
 int main(){
-    // ifstream infile("2_input.txt");
-    // ofstream outfile("2_output.txt");
-    // string line;
-    // while (getline(infile, line)) {
-    //     int counter = 0;
-    //     for ( string::size_type pos = 0;( pos = line.find_first_of( "0123456789", pos ) ) != string::npos;++pos ){
-    //         counter++;
-    //     }
-    //     if (counter){
-    //         outfile << line << "; digits: " << counter << endl;
-    //     }
-    // }
-    // infile.close();
-    // outfile.close();
-    
 
     FILE* in_file= fopen("2_input.txt", "r");
     FILE *out_file= fopen("2_output.txt", "w");
