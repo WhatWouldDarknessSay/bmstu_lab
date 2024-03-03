@@ -32,6 +32,7 @@ int main(){
         if((float)word.length() / (float)count_unique(word) <= 2){
             word += '\n';
             try{
+                
                 fputs(word.c_str(), out_file);
             } catch (...){
                 throw file_write_error();
