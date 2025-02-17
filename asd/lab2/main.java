@@ -57,7 +57,7 @@ public class main {
         ((LinkedList<Student>) linkedList).addFirst(newStudentStart);
         endTime = System.nanoTime();
         System.out.println("LinkedList add start: " + (endTime - startTime) + " ns");
-        
+
         startTime = System.nanoTime();
         deque.addFirst(newStudentStart);
         endTime = System.nanoTime();
@@ -160,7 +160,7 @@ public class main {
         // System.out.println("Size: " + list.size());
         // list.remove(4);
         // list.printForward();
-        // list.printBackward(); 
+        // list.printBackward();
         // System.out.println("Size: " + list.size());
         // // A2 кольцевой буфферный массив
         // CircularBuffer buffer = new CircularBuffer(5);
