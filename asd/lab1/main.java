@@ -82,9 +82,9 @@ public class main {
         }
         return -1;
     }
-    
+
     public static int[] findFirstNPrimes(int n) {
-        int limit = (int) (n * Math.log(n) + n * Math.log(Math.log(n)));   
+        int limit = (int) (n * Math.log(n) + n * Math.log(Math.log(n)));
         boolean[] isPrime = new boolean[limit + 1];
         int[] primes = new int[n];
         for (int i = 2; i <= limit; i++) {
