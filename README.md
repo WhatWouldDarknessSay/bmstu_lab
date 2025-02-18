@@ -1,7 +1,6 @@
 # bmstu_lab
-___
-A repo for university projects/tasks
-Bauman Moscow State Technical University
-Faculty of Computer Science
-Department CS-3 Information Systems and Telecommunications
+A repo for university projects/tasks </br>
+Bauman Moscow State Technical University </br>
+Faculty of Computer Science</br>
+Department CS-3 Information Systems and Telecommunications</br>
 1, 2, 3 semesters
